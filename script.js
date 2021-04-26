@@ -4,18 +4,21 @@ function getAreaOfCirle(r) {
         console.log(Math.PI * (r * r));
     }
 }
+
 getAreaOfCirle(5);
 
 
 function getCircumferenceOfCircle(r) {
     console.log(2 * Math.PI * r);
 }
+
 getCircumferenceOfCircle(5);
 
 
 function getAreaOfSquare(side) {
     console.log(side * side);
 }
+
 getAreaOfSquare(5);
 
 function getAreaOfTriangle(base, height) {
